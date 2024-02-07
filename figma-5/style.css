@@ -1,0 +1,418 @@
+body {
+  background-color: #f5f5f5;
+}
+header a:hover {
+  background: none;
+}
+.search-bar {
+  background: white;
+  border: 1px #d9d9d9 solid;
+}
+.search-bar-text {
+  color: #8b8b8b;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+input::placeholder {
+  color: #8b8b8b;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.search-btn {
+  width: 60px;
+  height: 42px;
+  background-color: #fa9370;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: -17px;
+}
+
+.search-btn img {
+  padding: 8px 17px;
+  cursor: pointer;
+}
+
+.wishlist {
+  margin-right: 15px;
+}
+
+.user {
+  margin-right: 15px;
+}
+
+.cart-span {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #fa9370;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  font-family: "roboto", sans-serif;
+  bottom: 60px;
+  right: 60px;
+}
+
+.ext {
+  border: none;
+  outline: none;
+}
+
+.pn {
+  border: none;
+  outline: none;
+}
+.dropdown ul li {
+  width: 336px;
+}
+.sec-nav ul li a {
+  color: #6a6a6a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+#sec-nav-li li {
+  padding-right: 13px;
+  color: #fff !important;
+}
+#sec-nav-li li a {
+  font-family: Roboto;
+  color: #8b8b8b;
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.offcanvas-body ul li {
+  color: black !important;
+}
+.sec-nav {
+  color: #fff;
+  background: #fa9370;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.sec-nav .btn {
+  background: #fa9370;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sec-nav .btn:active {
+  background: none !important;
+}
+.select-category {
+  outline: none !important;
+}
+.breadcrumb-section nav ol li a {
+  color: #626262 !important;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+.line {
+  color: 1px #d2d2d2 !important;
+}
+.breadcrumb-section nav #active {
+  color: #242424 !important;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.location .shiping-location {
+  color: #a4a4a4;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.location span {
+  color: #242424;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.breadcrumb-section nav #active a {
+  color: #626262 !important;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.check-out {
+  color: #242424;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.check-out-detail h4 {
+  color: #030303;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 33px !important;
+}
+.check-out-detail form label {
+  color: #151515;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.check-out-detail form label span {
+  color: #fe4d1b;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.check-out-detail form input,textarea {
+  border-radius: 5px !important;
+  border: 1px solid #b8b8b8 !important;
+  background: rgba(255, 255, 255, 0) !important;
+  padding: 15px !important;
+}
+.check-out-detail form input:focus, select:focus, textarea:focus {
+   box-shadow: none !important;
+}
+.check-out-detail form select {
+  border-radius: 5px !important;
+  border: 1px solid #b8b8b8 !important;
+  padding: 17px !important;
+  color: #151515 !important;
+  font-family: Roboto !important;
+  font-size: 22px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+}
+.outline-none {
+  outline: none !important;
+}
+.check-out-detail {
+  border-radius: 25px;
+  background: #fff;
+}
+.product-total {
+  border-radius: 25px;
+  background: #fff;
+}
+.product-total .v-code {
+  border-radius: 5px;
+  border: 1px solid #ff8258;
+  background: #fff;
+}
+.vcode input ::placeholder {
+  color: #a4a4a4;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.v-code button {
+  border-radius: 5px;
+  border: 1px solid #ff8258;
+  background: #ff8258;
+  width: 68px;
+  height: 35px;
+}
+input[type="submit"] {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  background-color: #ff8258;
+}
+.p-method-img .img-1,
+.img-2,
+.img-3 {
+  border-radius: 5px;
+  border: 1px solid #ff8258;
+  background: #fff;
+  width: 77px;
+  height: 35px;
+}
+.product-total .promo h3,
+.p-method-text h3,
+.product-total-head h3 {
+  color: #242424;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product-total-body .total .heading {
+  color: #6a6a6a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.09;
+  text-transform: capitalize;
+}
+.product-total-body .total .price,
+.total-foot .heading,
+.total-foot .price {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product-total-foot .button {
+  border-radius: 5px;
+  border: 1px solid #ff8258;
+  background: #ff8258;
+}
+.product-total-foot .button a {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #ffeedb;
+  margin-top: 50px;
+}
+.bottom-footer {
+  background: #269199;
+}
+.bottom-footer p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product-reviews-bottom .pag {
+  padding: 10px 20px 0px 0px;
+  width: 100%;
+  background: #fff;
+}
+.product-reviews-bottom .pag nav ul {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  width: 100% !important;
+  border-radius: 10px;
+}
+.product-reviews-bottom .pag nav ul li .page-link {
+  border: none !important;
+}
+.pag nav ul li a {
+  color: #999 !important;
+  border-width: 0px !important;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product-reviews-bottom .pag nav ul li .next-botton a {
+  border-radius: 5px;
+  background: #d8d8d8;
+}
+.product-reviews-bottom .pag nav ul li .next-botton a:hover {
+  background: #d8d8d8;
+}
+.product-reviews-bottom .pag nav ul li a:focus {
+  box-shadow: none !important;
+}
+.product-reviews-bottom .pag nav ul li a:hover {
+  background: none;
+}
+.product-reviews-bottom .pag nav ul .active > .page-link {
+  border-radius: 5px;
+  color: #fff !important;
+  background: #ff8258 !important;
+}
+footer .top-footer h2 {
+  color: #000;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+footer ul li {
+  padding: 3px 0px;
+  list-style: none;
+}
+footer ul li a {
+  color: #6a6a6a;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ff8258;
+  background: none;
+}
+
+/* Responsive style */
+@media screen and (min-width: 400px) and (max-width: 646px) {
+  .bottom-footer p {
+    font-size: 20px !important;
+  }
+}
